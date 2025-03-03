@@ -1,4 +1,4 @@
-# CommitFlow :rocket:  
+# CommitFlow
 A Python script to simplify creating **semantic commits** with emojis, type validation, and interactive prompts.  
 Automates `git add` and `git commit` in one step.  
 
@@ -22,10 +22,10 @@ curl -sSL https://raw.githubusercontent.com/viniciusnevescosta/CommitFlow/main/h
 
 ## How It Works
 
-    - Stage Files: Provide files as arguments (e.g., file1.txt file2.js).
-    - Select Commit Type: Choose from 20+ semantic types (e.g., feat, fix, docs).
-    - Enter Details: Add a title (required) and description (optional).
-    - Confirm: Preview and finalize the commit.
+- Stage Files: Provide files as arguments (e.g., file1.txt file2.js).
+- Select Commit Type: Choose from 20+ semantic types (e.g., feat, fix, docs).
+- Enter Details: Add a title (required) and description (optional).
+- Confirm: Preview and finalize the commit.
     
 ## Prerequisites
 
