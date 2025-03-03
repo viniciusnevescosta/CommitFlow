@@ -78,7 +78,9 @@ def has_staged_changes() -> bool:
 def format_commit_message(type_str: str, emoji: str, title: str, description: str) -> str:
     commit_message = f"{type_str}{emoji} {title}"
     if description:
-        commit_message += f"\n\n{description}"
+        # Replace /br with newline characters
+        formatted_description = description.replace('/br', '\n')
+        commit_message += f"\n\n{formatted_description}"
     return commit_message
 
 def main():
@@ -127,7 +129,7 @@ def main():
     )
 
     description = get_valid_input(
-        "Enter the commit description (optional, press Enter to skip): ",
+        "Enter the commit description (optional, use /br for new lines): ",
         lambda x: True,
         optional=True
     )
