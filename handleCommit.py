@@ -129,7 +129,7 @@ def main():
     )
 
     description = get_valid_input(
-        "Enter the commit description (optional, use /br for new lines): ",
+        "Enter the commit description (optional, use /br for new lines, press Enter to skip): ",
         lambda x: True,
         optional=True
     )
