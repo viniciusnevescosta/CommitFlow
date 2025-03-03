@@ -34,5 +34,5 @@ curl -sSL https://raw.githubusercontent.com/viniciusnevescosta/CommitFlow/main/h
 
 ## Notes
 
--  For security, verify the script source before running.
+- For security, verify the script source before running.
 - Customize COMMIT_TYPES in the script to match your team’s conventions.
