@@ -88,7 +88,7 @@ def main():
         sys.exit(1)
 
     if len(sys.argv) < 2:
-        print_color("Error: No files specified. Usage: python3 handlecommit.py <file1> <file2> ...", "red")
+        print_color("Error: No files specified. Usage: cf <file1> <file2> ...", "red")
         sys.exit(1)
 
     files_to_add = sys.argv[1:]
@@ -128,7 +128,7 @@ def main():
     )
 
     description = get_valid_input(
-        "Enter the commit description (optional, use /br for new lines, press Enter to skip): ",
+        "Enter the commit description (optional, use '/br' for new lines, press 'Enter' to skip): ",
         lambda x: True,
         optional=True
     )
