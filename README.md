@@ -1,6 +1,8 @@
 # CommitFlow
 A Python script to simplify creating [**semantic commits**](https://www.conventionalcommits.org/en/v1.0.0/) with emojis, type validation, and interactive prompts.  
-Automates `git add` and `git commit` in one step.  
+Automates `git add` and `git commit` in one step.
+
+![Exemple](public/example.png)
 
 ---
 
@@ -9,6 +11,7 @@ Automates `git add` and `git commit` in one step.
 - Title/description validation (length, required fields)  
 - Previews commit messages before confirmation  
 - Handles `git add` automatically for specified files  
+- Break rows by using '/br' in the description section
 
 ---
 

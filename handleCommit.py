@@ -78,7 +78,6 @@ def has_staged_changes() -> bool:
 def format_commit_message(type_str: str, emoji: str, title: str, description: str) -> str:
     commit_message = f"{type_str}{emoji} {title}"
     if description:
-        # Replace /br with newline characters
         formatted_description = description.replace('/br', '\n')
         commit_message += f"\n\n{formatted_description}"
     return commit_message
