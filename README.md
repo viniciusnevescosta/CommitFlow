@@ -11,7 +11,7 @@ Automates `git add` and `git commit` in one step.
 - Title/description validation (length, required fields)  
 - Previews commit messages before confirmation  
 - Handles `git add` automatically for specified files  
-- Break rows by using '/br' in the description section
+- Break rows by using `/br` in the description section
 
 ---
 
