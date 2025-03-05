@@ -47,8 +47,7 @@ function cf {
 ### 1. First run (auto-downloads script):
 
 ```bash
-cf README.md src/app.js  # Linux/macOS
-cf README.md src/app.js  # Windows (in PowerShell)
+cf README.md src/app.js  # Linux, macOS or Windows (in PowerShell)
 ```
 
 ### 2. Follow interactive prompts:
