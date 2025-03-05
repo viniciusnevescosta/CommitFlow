@@ -73,6 +73,11 @@ Select the commit type:
 - Python 3.6+
 - Git installed locally
 
+## Inspired by
+
+- [iuricode/padroes-de-commits](https://github.com/iuricode/padroes-de-commits)
+- [conventional-commits](https://github.com/conventional-commits)
+
 ## Notes
 
 - Security: Script is downloaded once and stored locally - verify before first use
