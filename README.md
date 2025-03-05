@@ -10,7 +10,7 @@ A Python script to simplify creating [**semantic commits**](https://www.conventi
 - Title/description validation (length, required fields)  
 - Previews commit messages before confirmation  
 - Handles `git add` automatically for specified files  
-- Break rows by using `/br` in the description section
+- Add break rows to the description by using `/br`
 
 ---
 
